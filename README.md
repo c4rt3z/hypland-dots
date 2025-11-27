@@ -34,18 +34,8 @@ While this guide is created with [Arch Linux](https://archlinux.org/) in mind, i
 
 ## Quick Installation Script 🚀
 
-1. Clone the repository to your home folder:
-    ```
-    git clone https://github.com/gaurav23b/simple-hyprland.git ~/simple-hyprland
-    ```
-2. Navigate to the installer directory:
-    ```
-    cd ~/simple-hyprland/scripts/installer
-    ```
-3. Run the installation script with sudo:
-    ```
-    sudo sh install.sh
-    ```
+soon...
+
 #### Important Notes:
 
 - This script is user-centric and allows you to choose which components to install (Everything is asked, even for the core).
@@ -61,7 +51,7 @@ While this guide is created with [Arch Linux](https://archlinux.org/) in mind, i
 After installation, you'll want to familiarize yourself with the default key bindings. Here are some essential shortcuts to get you started:
 
 #### General
-- `Super + T`: Open the terminal (`$terminal`).
+- `Super + RETURN (Shift)`: Open the terminal (`$terminal`).
 - `Super + B`: Open the browser (`$browser`).
 - `Super + O`: Open notes application (`$notes`).
 - `Super + C`: Open the primary editor (`$editor`).
