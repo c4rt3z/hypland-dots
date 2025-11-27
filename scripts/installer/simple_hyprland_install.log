@@ -1,0 +1,122 @@
+Чт 27 ноя 2025 21:21:13 +03: Installation started
+Чт 27 ноя 2025 21:21:13 +03: Original user is cartez
+Чт 27 ноя 2025 21:21:14 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:21:15 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:21:15 +03: Installation started for prerequisites section
+Чт 27 ноя 2025 21:21:15 +03: Attempting to run: Update package database and upgrade packages (Recommended)
+Чт 27 ноя 2025 21:21:16 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:21:20 +03: Update package database and upgrade packages (Recommended) completed successfully.
+Чт 27 ноя 2025 21:21:20 +03: Attempting to run: Configuring audio and brightness (Recommended)
+Чт 27 ноя 2025 21:21:21 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:21:23 +03: Configuring audio and brightness (Recommended) completed successfully.
+Чт 27 ноя 2025 21:21:23 +03: Attempting to run: Installing Nerd Fonts and Symbols (Recommended)
+Чт 27 ноя 2025 21:21:26 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:22:16 +03: Installing Nerd Fonts and Symbols (Recommended) completed successfully.
+Чт 27 ноя 2025 21:22:16 +03: Attempting to run: Install and enable SDDM (Recommended)
+Чт 27 ноя 2025 21:22:20 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:22:23 +03: Install and enable SDDM (Recommended) completed successfully.
+Чт 27 ноя 2025 21:22:23 +03: Attempting to run: Install Brave Browser
+Чт 27 ноя 2025 21:22:25 +03: Operation cancelled by user.
+Чт 27 ноя 2025 21:22:25 +03: Install Brave Browser was skipped by user choice.
+Чт 27 ноя 2025 21:22:25 +03: Attempting to run: Install Kitty (Recommended)
+Чт 27 ноя 2025 21:22:26 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:22:30 +03: Install Kitty (Recommended) completed successfully.
+Чт 27 ноя 2025 21:22:30 +03: Attempting to run: Install nano
+Чт 27 ноя 2025 21:22:32 +03: Operation cancelled by user.
+Чт 27 ноя 2025 21:22:32 +03: Install nano was skipped by user choice.
+Чт 27 ноя 2025 21:22:32 +03: Attempting to run: Install tar for extracting files (Must)/needed for copying themes
+Чт 27 ноя 2025 21:22:33 +03: Operation cancelled by user.
+Чт 27 ноя 2025 21:22:33 +03: Install tar for extracting files (Must)/needed for copying themes was skipped by user choice.
+Чт 27 ноя 2025 21:22:34 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:22:34 +03: Installation started for hypr section
+Чт 27 ноя 2025 21:22:34 +03: Attempting to run: Install Hyprland (Must)
+Чт 27 ноя 2025 21:22:35 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:22:48 +03: Install Hyprland (Must) completed successfully.
+Чт 27 ноя 2025 21:22:48 +03: Attempting to run: Copy hyprland config (Must)
+Чт 27 ноя 2025 21:22:50 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:22:50 +03: Copy hyprland config (Must) completed successfully.
+Чт 27 ноя 2025 21:22:50 +03: Attempting to run: Install XDG desktop portal for Hyprland
+Чт 27 ноя 2025 21:22:51 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:22:52 +03: Install XDG desktop portal for Hyprland completed successfully.
+Чт 27 ноя 2025 21:22:52 +03: Attempting to run: Install KDE Polkit agent for authentication dialogs
+Чт 27 ноя 2025 21:22:59 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:23:01 +03: Install KDE Polkit agent for authentication dialogs completed successfully.
+Чт 27 ноя 2025 21:23:01 +03: Attempting to run: Install Dunst notification daemon
+Чт 27 ноя 2025 21:23:02 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:23:03 +03: Install Dunst notification daemon completed successfully.
+Чт 27 ноя 2025 21:23:03 +03: Attempting to run: Copy dunst config
+Чт 27 ноя 2025 21:23:04 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:23:04 +03: Copy dunst config completed successfully.
+Чт 27 ноя 2025 21:23:04 +03: Attempting to run: Install QT support on wayland
+Чт 27 ноя 2025 21:23:05 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:23:07 +03: Install QT support on wayland completed successfully.
+Чт 27 ноя 2025 21:23:09 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:23:09 +03: Installation started for utilities section
+Чт 27 ноя 2025 21:23:09 +03: Attempting to run: Install Waybar - Status Bar
+Чт 27 ноя 2025 21:23:10 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:23:16 +03: Install Waybar - Status Bar completed successfully.
+Чт 27 ноя 2025 21:23:16 +03: Attempting to run: Copy Waybar config
+Чт 27 ноя 2025 21:23:18 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:23:18 +03: Copy Waybar config completed successfully.
+Чт 27 ноя 2025 21:23:18 +03: Attempting to run: Install Tofi - Application Launcher
+Чт 27 ноя 2025 21:23:18 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:23:46 +03: Install Tofi - Application Launcher completed successfully.
+Чт 27 ноя 2025 21:23:46 +03: Attempting to run: Copy Tofi config(s)
+Чт 27 ноя 2025 21:23:48 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:23:48 +03: Copy Tofi config(s) completed successfully.
+Чт 27 ноя 2025 21:23:48 +03: Attempting to run: Install Cliphist - Clipboard Manager
+Чт 27 ноя 2025 21:23:48 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:23:50 +03: Install Cliphist - Clipboard Manager completed successfully.
+Чт 27 ноя 2025 21:23:50 +03: Attempting to run: Install SWWW for wallpaper management
+Чт 27 ноя 2025 21:23:50 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:23:55 +03: Install SWWW for wallpaper management completed successfully.
+Чт 27 ноя 2025 21:23:55 +03: Attempting to run: Copy sample wallpapers to assets directory (Recommended)
+Чт 27 ноя 2025 21:23:56 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:23:56 +03: Copy sample wallpapers to assets directory (Recommended) completed successfully.
+Чт 27 ноя 2025 21:23:56 +03: Attempting to run: Install Hyprpicker - Color Picker
+Чт 27 ноя 2025 21:23:57 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:24:00 +03: Install Hyprpicker - Color Picker completed successfully.
+Чт 27 ноя 2025 21:24:00 +03: Attempting to run: Install Hyprlock - Screen Locker (Must)
+Чт 27 ноя 2025 21:24:01 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:24:04 +03: Install Hyprlock - Screen Locker (Must) completed successfully.
+Чт 27 ноя 2025 21:24:04 +03: Attempting to run: Copy Hyprlock config
+Чт 27 ноя 2025 21:24:05 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:24:05 +03: Copy Hyprlock config completed successfully.
+Чт 27 ноя 2025 21:24:05 +03: Attempting to run: Install Wlogout - Session Manager
+Чт 27 ноя 2025 21:24:06 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:24:25 +03: Install Wlogout - Session Manager completed successfully.
+Чт 27 ноя 2025 21:24:25 +03: Attempting to run: Copy Wlogout config and assets
+Чт 27 ноя 2025 21:24:26 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:24:26 +03: Copy Wlogout config and assets completed successfully.
+Чт 27 ноя 2025 21:24:26 +03: Attempting to run: Install Grimblast - Screenshot tool
+Чт 27 ноя 2025 21:24:27 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:24:38 +03: Install Grimblast - Screenshot tool completed successfully.
+Чт 27 ноя 2025 21:24:38 +03: Attempting to run: Install Hypridle for idle management (Must)
+Чт 27 ноя 2025 21:24:40 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:24:43 +03: Install Hypridle for idle management (Must) completed successfully.
+Чт 27 ноя 2025 21:24:43 +03: Attempting to run: Copy Hypridle config
+Чт 27 ноя 2025 21:24:47 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:24:47 +03: Copy Hypridle config completed successfully.
+Чт 27 ноя 2025 21:24:48 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:24:48 +03: Installation started for theming section
+Чт 27 ноя 2025 21:24:48 +03: Attempting to run: Install nwg-look for GTK theme management
+Чт 27 ноя 2025 21:24:49 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:24:50 +03: Install nwg-look for GTK theme management completed successfully.
+Чт 27 ноя 2025 21:24:50 +03: Attempting to run: Install Qt5, Qt6 Settings, and Kvantum theme engines
+Чт 27 ноя 2025 21:24:50 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:24:52 +03: Install Qt5, Qt6 Settings, and Kvantum theme engines completed successfully.
+Чт 27 ноя 2025 21:24:52 +03: Attempting to run: Install Catppuccin Mocha GTK theme
+Чт 27 ноя 2025 21:24:57 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:24:57 +03: Install Catppuccin Mocha GTK theme completed successfully.
+Чт 27 ноя 2025 21:24:57 +03: Attempting to run: Install Tela Circle Dracula icon theme
+Чт 27 ноя 2025 21:24:58 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:24:59 +03: Install Tela Circle Dracula icon theme completed successfully.
+Чт 27 ноя 2025 21:24:59 +03: Attempting to run: Install Catppuccin theme for Kvantum
+Чт 27 ноя 2025 21:25:01 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:25:14 +03: Install Catppuccin theme for Kvantum completed successfully.
+Чт 27 ноя 2025 21:25:14 +03: Attempting to run: Copy Catppuccin theme configuration for Kitty terminal
+Чт 27 ноя 2025 21:25:16 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:25:16 +03: Copy Catppuccin theme configuration for Kitty terminal completed successfully.
+Чт 27 ноя 2025 21:25:17 +03: Operation accepted by user.
+Чт 27 ноя 2025 21:25:17 +03: Final setup script started
+Чт 27 ноя 2025 21:25:17 +03: Installation completed successfully
