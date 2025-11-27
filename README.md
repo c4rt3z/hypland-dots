@@ -5,7 +5,7 @@ Screenshots:
 <img src="/assets/github_repo/images/final-setup-01.png" alt="final-setup-01">
 <img src="/assets/github_repo/images/final-setup-02.png" alt="final-setup-02">
 
-## Documentation 📚
+## Documentation
 1. [Prerequisites](docs/prerequisites.md)
 2. [Core Installation](docs/installation_Hypr.md)
 3. [Basic Configuration](docs/basic_configuration.md)
@@ -46,7 +46,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 pip install pygments # or sudo pacman -S python-pygments (Install pygments, plugin)
 npm install --global trash-cli #Install trash-cli (plugin)
 
-IN .zshrc:
+#IN .zshrc:
 plugins=(
   git
   brew
@@ -64,7 +64,7 @@ plugins=(
   zsh-autosuggestions
 ) #Set plugins
 
-NOT in .zshrc:
+#NOT in .zshrc:
 source .zshrc #Apply changes
 ```
 Important Notes:
