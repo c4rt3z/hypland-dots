@@ -1,25 +1,9 @@
-# Simple Hyprland 🌟 
-Welcome to the Simple Hyprland Guide! This repository is designed to help users set up a minimal Hyprland environment on Arch Linux. Although various scripts and configuration files are available elsewhere, they often result in bloated systems with many unused themes and configurations. This guide aims to provide a clear, concise, and minimal setup, allowing users to understand each step and customize their environment to their liking.
+# Hyprland Dots
 
-By the end of this guide, you'll have a clean and functional Hyprland setup like this:
+Screenshots:
 
 <img src="/assets/github_repo/images/final-setup-01.png" alt="final-setup-01">
 <img src="/assets/github_repo/images/final-setup-02.png" alt="final-setup-02">
-
-##### Setup Walkthrough 👇 (Click to Play)
-[![Showcase Video](https://raw.githubusercontent.com/gaurav23b/simple-hyprland/main/assets/github_repo/images/Simple_hypr_thumbnail.png)](https://www.youtube.com/watch?v=eNJorbKz_-U)
-
-## Purpose ✨
-This guide is intended for:
-
-**Newcomers transitioning to Hyprland who want to gain knowledge.** 👋 If you're new to Hyprland and looking to understand the ins and outs of setting it up, this guide will take you through the process step-by-step, explaining each component along the way.
-
-**Users who wish to set up a minimal system their way, knowing what's happening at each step.**  🧠 Rather than relying on scripts that automate the process, this guide empowers you to build your Hyprland environment from the ground up, enabling you to customize and tweak every aspect according to your preferences.
-
-**Individuals looking to save time by following a structured and efficient setup process.** ⏱️ While many guides and resources are available, they can be scattered and overwhelming. This guide consolidates the essential steps into a streamlined workflow, helping you get up and running with Hyprland quickly and efficiently.
-
-## Getting Started 🚀
-If you're new to this guide, you can start from the [Prerequisites section](docs/prerequisites.md). This document outlines the necessary tools, packages, and assumptions required for a smooth installation and setup process.
 
 ## Documentation 📚
 1. [Prerequisites](docs/prerequisites.md)
@@ -29,28 +13,75 @@ If you're new to this guide, you can start from the [Prerequisites section](docs
 5. [Theming](docs/theming.md)
 6. [Summary](docs/final.md)
 
-## Compatibility ⚙️
-While this guide is created with [Arch Linux](https://archlinux.org/) in mind, it can also be helpful for users of other distributions who are familiar with their package management and system tweaking.
+Installation:
 
-## Quick Installation Script 🚀
+Clone the repository:
+```
+git clone https://github.com/c4rt3z/hyprland-dots
+```
 
-soon...
+Enter the installer path and run the installer:
+```
+cd ~/hyprland-dots/scripts/installer
+sudo ./install.sh
+```
 
-#### Important Notes:
+(Optional) Install zsh + oh-my-zsh + Pure:
+```
+sudo pacman -S zsh npm #Install dependencies
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" #Install oh-my-zsh
+sudo npm install --global pure-prompt #Install pure theme
+```
+
+Install theme + plugins (Find the required lines in .zshrc and replace them):
+```
+#In .zshrc (sudo nano .zshrc):
+ZSH_THEME=""
+autoload -U promptinit; promptinit
+prompt pure # (setting theme)
+
+#NOT in .zshrc:
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting #Install zsh-syntax-highlighting (plugin)
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions #Install zsh-autosuggestions (plugin)
+pip install pygments # or sudo pacman -S python-pygments (Install pygments, plugin)
+npm install --global trash-cli #Install trash-cli (plugin)
+
+IN .zshrc:
+plugins=(
+  git
+  brew
+  common-aliases
+  node
+  npm
+  rand-quote
+  sudo
+  yarn
+  z
+  colored-man-pages
+  colorize
+  cp
+  zsh-syntax-highlighting
+  zsh-autosuggestions
+) #Set plugins
+
+NOT in .zshrc:
+source .zshrc #Apply changes
+```
+Important Notes:
 
 - This script is user-centric and allows you to choose which components to install (Everything is asked, even for the core).
 - While the script offers flexibility, it is recommend to installing all components for the best experience, as this is already a minimal setup.
 - The installation process follows the same flow as the documentation, ensuring a structured and educational approach.
-- Although designed for Arch Linux, users of Arch-based distributions may also find this script helpful.
+- Although designed for Arch Linux/EndeavourOS, users of Arch-based distributions may also find this script helpful.
 
-> **Note for Newcomers**: Although this script enables rapid setup, it's highly recommended to read through the documentation for those new to Hyprland. Understanding each step will greatly enhance your ability to customize and troubleshoot your environment.
+> Note for Newcomers: Although this script enables rapid setup, it's highly recommended to read through the documentation for those new to Hyprland. Understanding each step will greatly enhance your ability to customize and troubleshoot your environment.
 
 
-### Key Bindings 🎹
+Keybinds:
 
 After installation, you'll want to familiarize yourself with the default key bindings. Here are some essential shortcuts to get you started:
 
-#### General
+General
 - `Super + RETURN (Shift)`: Open the terminal (`$terminal`).
 - `Super + B`: Open the browser (`$browser`).
 - `Super + O`: Open notes application (`$notes`).
@@ -60,7 +91,7 @@ After installation, you'll want to familiarize yourself with the default key bin
 - `Super + A`: Open the application menu (`$menu`).
 - `Super + M`: Exit Hyprland.
 
-#### Window Management & Workspace Navigation
+Window Management & Workspace Navigation
 - `Super + Q`: Close the active window.
 - `Super + W`: Toggle floating mode for the active window.
 - `Super + J`: Toggle split mode in the Dwindle layout.
@@ -70,7 +101,7 @@ After installation, you'll want to familiarize yourself with the default key bin
 - `SUPER + [1-9]`: Switch to workspace 1-9
 - `SUPER + SHIFT + [1-9]`: Move active window to workspace 1-9
 
-#### Screen Brightness, Volume and Media Control
+Screen Brightness, Volume and Media Control
 - `Brightness Up`: Increase the screen brightness by 5%.
 - `Brightness Down`: Decrease the screen brightness by 5%.
 - `Volume Up`: Increase the volume by 5%.
@@ -81,7 +112,7 @@ After installation, you'll want to familiarize yourself with the default key bin
 - `Next Track`: Skip to the next track.
 - `Previous Track`: Go back to the previous track.
 
-#### Miscellaneous
+Miscellaneous
 - `Super + V`: Open the clipboard history and paste the selected item.
 - `Super + P`: Open the color picker and copy the selected color to the clipboard.
 - `Super + L`: Lock the screen.
@@ -93,12 +124,12 @@ After installation, you'll want to familiarize yourself with the default key bin
 
 Make sure to have applications installed corresponding to the binds. Feel free to customize these keybindings to better suit your needs. You can customize these and add more in your Hyprland configuration file (`~/.config/hypr/hyprland.conf`).
 
-## Credits 🙏
-Many configuration parts, themes, and scripts in this guide are sourced from the community. I extend my thanks to all contributors, especially the [Hyprland project](https://github.com/hyprwm/Hyprland) and other cool repositories like [hyprdots](https://github.com/prasanthrangan/hyprdots). If you find that credit has not been given where due, please feel free to open a Pull Request (PR).
+Credits
+Many configuration parts, themes, and scripts in this guide are sourced from the community. I extend my thanks to all contributors, especially the [Hyprland project](https://github.com/hyprwm/Hyprland) and other cool repositories like [hyprdots](https://github.com/prasanthrangan/hyprdots). If you find that credit has not been given where due, please feel free to open a Pull Request (PR). Thanks for pure theme [iTerm2 + oh-my-zsh + Pure + plugins](https://gist.github.com/ganapativs/e571d9287cb74121d41bfe75a0c864d7). Also, thanks to [oh-my-zsh](https://ohmyz.sh).
 
-## References 📖
+References
 * [Hyprland Wiki](https://wiki.hyprland.org/)
 * [Hyprdots Repo](https://github.com/prasanthrangan/hyprdots)
 * [Hyprland-titus Repo](https://github.com/ChrisTitusTech/hyprland-titus) and more.
 
-Feel free to explore the documentation and contribute to this guide if you find any improvements or have suggestions. 🤝
+Feel free to explore the documentation and contribute to this guide if you find any improvements or have suggestions.
