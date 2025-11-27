@@ -2,8 +2,8 @@
 
 Screenshots:
 
-<img src="/assets/github_repo/images/final-setup-01.png" alt="final-setup-01">
-<img src="/assets/github_repo/images/final-setup-02.png" alt="final-setup-02">
+<img src="/assets/github_repo/images/screenshot-1.png" alt="screenshot-1">
+<img src="/assets/github_repo/images/screenshot-2.png" alt="screenshot-2">
 
 ## Documentation
 1. [Prerequisites](docs/prerequisites.md)
