@@ -1,20 +1,20 @@
-# Basic Configuration 🛠️
+# Basic Configuration
 
 Having installed Hyprland and essential system components, we now proceed to configure basics of your environment for optimal functionality and efficiency. This section will guide you through the configuration of key aspects by modifying the `hyprland.conf` file.
 
 Navigate to your configuration file and commence editing.
 
-#### 1. Monitor Configuration 🖥️
+#### 1. Monitor Configuration
 The default monitor configuration is optimized for most setups. However, for advanced configurations such as setting precise refresh rates, resolutions, or mirroring displays, refer to the [Hyprland Monitor Configuration Wiki](https://wiki.hyprland.org/Configuring/Monitors/).
 
-#### 2. User Programs 📚
+#### 2. User Programs
 Define frequently used applications for rapid access:
 
 ```
 # Define primary applications
 $terminal = kitty
 $fileManager = dolphin
-$browser = brave-browser
+$browser = firefox
 $editor = code
 ```
 
@@ -58,7 +58,7 @@ Change things like `gaps_in, gaps_out, border_size, resizing_on_border`, etc. ac
 general { 
     gaps_in = 5
     gaps_out = 5
-    border_size = 2
+    border_size = 0
     col.active_border = rgb(8aadf4) rgb(24273A) rgb(24273A) rgb(8aadf4) 45deg
     col.inactive_border = rgb(24273A) rgb(24273A) rgb(24273A) rgb(27273A) 45deg
     resize_on_border = true
@@ -74,7 +74,8 @@ Most of the defaults will work, but you might want to change things like `natura
 
 ```
 input {
-    kb_layout = us
+    kb_layout = us, ru
+    kb_options = grp:alt_shift_toggle
     follow_mouse = 1
     sensitivity = 0
 
@@ -89,10 +90,10 @@ gestures {
 }
 ```
 
-#### 7. Keybindings ⌨️
+#### 7. Keybindings
 Configure keybindings for efficient workflow management. Note that these bindings are crucial as we haven't yet configured an application launcher.
 
-**Pro Tip:** 💡 Try to make meaningful binds like T for terminal, B for browser, C for code, F for file manager, and Q for quit.
+**Pro Tip:** Try to make meaningful binds like T for terminal, B for browser, C for code, F for file manager, and Q for quit.
 
 You might want to change the volume and brightness of your system. To do that, install the following software:
 
@@ -109,7 +110,7 @@ After installing the utilities, add the following bindings:
 ```
 $mainMod = SUPER
 
-bind = $mainMod, T, exec, $terminal
+bind = $mainMod, RETURN, exec, $terminal
 bind = $mainMod, B, exec, $browser
 bind = $mainMod, C, exec, $editor
 bind = $mainMod, Q, killactive,
@@ -136,6 +137,4 @@ We will add more binds as we progress.
 
 For comprehensive keybinding documentation, refer to the [Hyprland Keybindings Wiki](https://wiki.hyprland.org/Configuring/Binds/).
 
-With your minimal Hyprland environment now operational, we're poised to elevate it from functional to phenomenal. In the following sections, we'll supercharge your setup with sleek status bars, lightning-fast application launchers, and dynamic wallpaper utilities. Brace yourself for a deep dive into advanced customization that will transform your desktop into a powerhouse of aesthetics and efficiency. The groundwork is laid; now it's time to unleash the full potential of your Hyprland environment. 🚀✨
-
-**Next:** [Useful Utilities](useful_utilities.md) 👉
+**Next:** [Useful Utilities](useful_utilities.md)
